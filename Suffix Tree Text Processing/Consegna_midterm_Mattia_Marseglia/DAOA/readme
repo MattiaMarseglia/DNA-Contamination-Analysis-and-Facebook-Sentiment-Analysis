@@ -1,0 +1,9 @@
+The class self-made are in:
+1) SuffixTree.py
+2) DNAContamination.py
+3) Contaminants_Tree.py
+4) Test.py
+The others file are taken from DAA Collection library provided in the E-learning platform.
+
+EXECUTION:
+to perform the test shown in the final track, you simply need to run the main.py present in the project
