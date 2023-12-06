@@ -46,5 +46,5 @@ All functions and classes must be implemented in a file named `facebook.py`. Sol
 
 ## More Information
 for more detailed information:
-- About 1 Part [here]()
+- About 1 Part [here](Suffix-Tree-Text-Processing/midterm_homework.pdf)
 - About 2 Part [here]()
