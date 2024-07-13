@@ -8,7 +8,17 @@ This repository contains two distinct projects developed for the course on Desig
 
 ### Overview
 
-The DNA contamination analysis project addresses the problem of identifying and analyzing potential contaminants in a DNA sequence. This is crucial in ensuring the integrity of DNA sequencing processes, which can be compromised by unwanted DNA fragments.
+The DNA contamination analysis project addresses the problem of identifying and analyzing potential contaminants in a DNA sequence. This is crucial in ensuring the integrity of DNA sequencing processes, which can be compromised by unwanted DNA fragments. The goal of the project is to create a DNAContamination Class designed to identify contaminants with a high degree of contamination in a DNA string:
+
+### DNAContamination Class
+
+The `DNAContamination` main methods include:
+
+- `DNAContamination(s, l)`: Initializes the class with a DNA string `s` and contamination threshold `l`.
+- `addContaminant(c)`: Adds a contaminant `c` to the set and calculates its contamination degree in `s`.
+- `getContaminants(k)`: Returns the `k` contaminants with the highest contamination degree.
+
+This Class is based on:
 
 ### SuffixTree Class
 
@@ -20,14 +30,6 @@ The `SuffixTree` class provides a robust implementation for creating and analyzi
 - `T.getNodeDepth(P)`: Provides the length of the path substring from the root to node `P`.
 - `T.getNodeMark(P)`: Returns the mark of the node at position `P`.
 - `T.child(P, s)`: Finds the child node of `P` based on substring `s`.
-
-### DNAContamination Class
-
-The `DNAContamination` class is designed to identify contaminants with a high degree of contamination in a DNA string. Its main methods include:
-
-- `DNAContamination(s, l)`: Initializes the class with a DNA string `s` and contamination threshold `l`.
-- `addContaminant(c)`: Adds a contaminant `c` to the set and calculates its contamination degree in `s`.
-- `getContaminants(k)`: Returns the `k` contaminants with the highest contamination degree.
 
 ### Implementation Details
 
@@ -61,11 +63,6 @@ The `facebook_friend` function classifies voters based on friendship levels and 
 
 - `facebook_enmy` aims to maximize enmity between groups and minimize intra-group enmity.
 - `facebook_friend` maximizes intra-group friendship and the total likelihood of group votes.
-
-## Bonus Points
-
-- **Part 1**: Bonus points are awarded based on the running time of the `facebook_enmy` function and the inter-group enmity level.
-- **Part 2**: Bonus points are awarded based on the running time of the `facebook_friend` function.
 
 ## Implementation
 
